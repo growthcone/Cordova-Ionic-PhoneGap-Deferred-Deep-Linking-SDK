@@ -104,9 +104,12 @@ SOFTWARE.
         <source-file src="src/ios/BranchSDK.m" />
         <source-file src="src/ios/AppDelegate+BranchSdk.m" />
         <!-- COMMENT if building for NPM -->
+        <header-file src="src/ios/dependencies/Branch-SDK/BranchView.h" />
+        <header-file src="src/ios/dependencies/Branch-SDK/BranchViewHandler.h" />
         <framework custom="true" src="src/ios/dependencies/Branch.framework" />
         <!-- UNCOMMENT if building for NPM -->
-        <!-- <header-file src="src/ios/dependencies/Branch-SDK/BNCConfig.h" />
+        <!--
+        <header-file src="src/ios/dependencies/Branch-SDK/BNCConfig.h" />
         <header-file src="src/ios/dependencies/Branch-SDK/BNCContentDiscoveryManager.h" />
         <source-file src="src/ios/dependencies/Branch-SDK/BNCContentDiscoveryManager.m" />
         <header-file src="src/ios/dependencies/Branch-SDK/BNCEncodingUtils.h" />
@@ -179,6 +182,6 @@ SOFTWARE.
         <header-file src="src/ios/dependencies/Branch-SDK/Requests/BranchUserCompletedActionRequest.h" />
         <source-file src="src/ios/dependencies/Branch-SDK/Requests/BranchUserCompletedActionRequest.m" />
         <header-file src="src/ios/dependencies/Branch-SDK/Requests/BranchValidatePromoCodeRequest.h" />
-        <source-file src="src/ios/dependencies/Branch-SDK/Requests/BranchValidatePromoCodeRequest.m" /> -->
+        <source-file src="src/ios/dependencies/Branch-SDK/Requests/BranchValidatePromoCodeRequest.m" />-->
     </platform>
 </plugin>
